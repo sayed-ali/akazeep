@@ -58,7 +58,7 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => '127.0.0.1:3306',
+		'host' => getenv("OPENSHIFT_DB_HOST") + ":" + getenv("OPENSHIFT_DB_PORT"),
 		'login' => 'adminREeE4me',
 		'password' => 'XXq4qz2LPvUC',
 		'database' => 'akazeep',
