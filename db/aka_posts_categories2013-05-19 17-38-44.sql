@@ -1,0 +1,25 @@
+﻿USE cake_akazeep;
+
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (1,11,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (2,11,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (3,11,3);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (4,11,4);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (5,18,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (6,18,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (7,18,3);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (8,21,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (9,21,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (10,22,3);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (11,23,3);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (12,24,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (13,25,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (14,26,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (15,27,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (16,32,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (17,32,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (18,34,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (19,34,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (20,28,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (21,28,2);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (22,12,1);
+INSERT INTO `cake_akazeep`.`aka_posts_categories`(`id`,`post_id`,`category_id`) VALUES (23,12,2);

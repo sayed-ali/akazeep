@@ -1,0 +1,67 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-05-14 00:19+0200\n"
+"PO-Revision-Date: 2013-05-14 00:24+0200\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Controller/PostsController.php:56;118;172
+msgid "Invalid post"
+msgstr "الخبر غير صحيح"
+
+#: Controller/PostsController.php:89;140
+msgid "The post has been saved"
+msgstr "تم حفظ الخبر"
+
+#: Controller/PostsController.php:92;143
+msgid "The post could not be saved. Please, try again."
+msgstr "لم نستطع حفظ الخبر , من فضلك حاول مرة اخرى"
+
+#: Controller/PostsController.php:122
+msgid "You are not allowed to edit this post"
+msgstr "غير مصرح لك بتعديل هذا الخبر"
+
+#: Controller/PostsController.php:176
+msgid "Post deleted"
+msgstr "تم حذف الخبر"
+
+#: Controller/PostsController.php:179
+msgid "Post was not deleted"
+msgstr "لم يتم حذف الخبر"
+
+#: Plugin/Users/View/Elements/pagination.ctp:14
+msgid "previous"
+msgstr "السابق"
+
+#: Plugin/Users/View/Elements/pagination.ctp:16
+msgid "next"
+msgstr "التالي"
+
+#: View/Posts/add.ctp:3
+msgid "Add Post"
+msgstr "كذبة جديدة"
+
+#: View/Posts/add.ctp:18 View/Posts/edit.ctp:16
+msgid "Submit"
+msgstr "حفظ"
+
+#: View/Posts/edit.ctp:3
+msgid "Edit Post"
+msgstr "تعديل الخبر"
+
+#: View/Posts/myposts.ctp:12
+msgid "edit"
+msgstr "تعديل"
+
+#: View/Posts/myposts.ctp:13
+msgid "delete"
+msgstr "حذف"

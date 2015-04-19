@@ -1,0 +1,630 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-05-14 00:19+0200\n"
+"PO-Revision-Date: 2013-05-15 00:59+0200\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Plugin/Users/Controller/UserDetailsController.php:59;147
+msgid "Invalid Detail."
+msgstr "بيانات غير صحيحة"
+
+#: Plugin/Users/Controller/UserDetailsController.php:81
+msgid "Saved"
+msgstr "لقد تم حفظ البيانات بنجاح"
+
+#: Plugin/Users/Controller/UserDetailsController.php:101
+msgid "%s details saved"
+msgstr "تم حفظ بيانات %s"
+
+#: Plugin/Users/Controller/UserDetailsController.php:120;208
+msgid "Invalid id for Detail"
+msgstr "رقم التعريف غير صحيح"
+
+#: Plugin/Users/Controller/UserDetailsController.php:124;212
+msgid "User Detail deleted"
+msgstr "تم حذف بيانات المستخدم"
+
+#: Plugin/Users/Controller/UserDetailsController.php:162;186
+msgid "The Detail has been saved"
+msgstr "تم حقظ بيانات المستخدم"
+
+#: Plugin/Users/Controller/UserDetailsController.php:165;189
+msgid "The Detail could not be saved. Please, try again."
+msgstr "لا يمكن حفظ البيانات ، من فضلك حاول مرة أخرى."
+
+#: Plugin/Users/Controller/UserDetailsController.php:181
+msgid "Invalid Detail"
+msgstr "بيانات غير صحيحة"
+
+#: Plugin/Users/Controller/UsersController.php:202
+msgid "Profile saved."
+msgstr "تم حفظ الملف الشخصي"
+
+#: Plugin/Users/Controller/UsersController.php:204
+msgid "Could not save your profile."
+msgstr "لم يمكن حفظ ملفك الشخصي"
+
+#: Plugin/Users/Controller/UsersController.php:245
+msgid "Invalid User."
+msgstr "مستخدم غير صحيح"
+
+#: Plugin/Users/Controller/UsersController.php:262
+msgid "The User has been saved"
+msgstr "تم حفظ بيانات المستخدم"
+
+#: Plugin/Users/Controller/UsersController.php:279
+msgid "User saved"
+msgstr "تم حفظ بيانات المستخدم"
+
+#: Plugin/Users/Controller/UsersController.php:303
+msgid "User deleted"
+msgstr "تم حذف بيانات المستخدم"
+
+#: Plugin/Users/Controller/UsersController.php:305
+#: Plugin/Users/Model/User.php:833
+msgid "Invalid User"
+msgstr "مستخدم غير صحيح"
+
+#: Plugin/Users/Controller/UsersController.php:327
+msgid "You are already registered and logged in!"
+msgstr "لقد تم تسجيلك مسبقا في الموقع"
+
+#: Plugin/Users/Controller/UsersController.php:335
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:328
+msgid ""
+"Your account has been created. You should receive an e-mail shortly to "
+"authenticate your account. Once validated you will be able to login."
+msgstr ""
+"لقد تم انشاء حساب لك بنجاح. سوف نقوم حالاً بإرسال بريد الكتروني لك لتفعيل "
+"الحساب ."
+
+#: Plugin/Users/Controller/UsersController.php:340
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:343
+msgid "Your account could not be created. Please, try again."
+msgstr "خطأ أثناء إنشاء حساب لك ، من فضلك حاول مرة أخرى."
+
+#: Plugin/Users/Controller/UsersController.php:363
+msgid "%s you have successfully logged in"
+msgstr "%s ، لقد اتممت عملية الدخول للموقع بنجاح"
+
+#: Plugin/Users/Controller/UsersController.php:375
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:302
+msgid "Invalid e-mail / password combination.  Please try again"
+msgstr "البريد الالكتروني او كلمة السر غير صحيحين ، من فضلك حاول مرة أخرى."
+
+#: Plugin/Users/Controller/UsersController.php:387
+msgid "%s, You are already logged in."
+msgstr "%s, انت على الموقع بالفعل"
+
+#: Plugin/Users/Controller/UsersController.php:507
+msgid "%s you have successfully logged out"
+msgstr "%s لقد خرجت من الموقع بنجاح"
+
+#: Plugin/Users/Controller/UsersController.php:545
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:360
+msgid "Your e-mail has been validated!"
+msgstr "لقد تم تفعيل بريدك الإلكتروني."
+
+#: Plugin/Users/Controller/UsersController.php:567
+msgid "The url you accessed is not longer valid"
+msgstr "الصفخة اللتي تحاول الدخول عليها لم تعد موجودة."
+
+#: Plugin/Users/Controller/UsersController.php:576
+msgid "Your password was sent to your registered email account"
+msgstr "لقد تم ارسال كلمة السر إلى بريدك الإلكتروني."
+
+#: Plugin/Users/Controller/UsersController.php:580
+msgid ""
+"There was an error verifying your account. Please check the email you were "
+"sent, and retry the verification link."
+msgstr ""
+"يوجد خطأ بعملية تفعيل بريدك الإلكتروني ، من فضلك اتبع  الإرشادات الموجودة "
+"بالرسالة اللتي تم إرسالها إلى بريدك الإلكتروني و أعد المحاولة."
+
+#: Plugin/Users/Controller/UsersController.php:596;700
+msgid "Password Reset"
+msgstr "إعادة إدخال كلمة السر."
+
+#: Plugin/Users/Controller/UsersController.php:613
+msgid "Password changed."
+msgstr "تم تغيير كلمة السر."
+
+#: Plugin/Users/Controller/UsersController.php:672
+msgid "Account verification"
+msgstr "تفعيل الحساب."
+
+#: Plugin/Users/Controller/UsersController.php:724
+msgid "%s has been sent an email with instruction to reset their password."
+msgstr "%s، لقد تم إرسال رسالة إلى بريدك الإلكتروني لتغيير كلمة السر."
+
+#: Plugin/Users/Controller/UsersController.php:728
+msgid "You should receive an email with further instructions shortly"
+msgstr "سوف تستلم رسالة تحتوى على الإرشادات حالاً."
+
+#: Plugin/Users/Controller/UsersController.php:732
+msgid "No user was found with that email."
+msgstr "هذا البريد الإلكتروني غير مسجل معنا."
+
+#: Plugin/Users/Controller/UsersController.php:779
+msgid "Invalid password reset token, try again."
+msgstr "عملية تغيير كلمة السر لم تتم بنجاح، من فضلك حاولم رة أخرى"
+
+#: Plugin/Users/Controller/UsersController.php:784
+msgid "Password changed, you can now login with your new password."
+msgstr ""
+"لقد تم تغيير كلمة السر، الآن تستطيع إستخدام كلمة السر الجديدة للدخول على "
+"الموقع"
+
+#: Plugin/Users/Model/User.php:158;448
+msgid "The passwords are not equal."
+msgstr "كلمتا السر غير متطابقتان."
+
+#: Plugin/Users/Model/User.php:160
+msgid "Invalid password."
+msgstr "كلمة السر غير صحيحة."
+
+#: Plugin/Users/Model/User.php:189;192;195
+msgid "Invalid date"
+msgstr "التاريخ غير صحيح."
+
+#: Plugin/Users/Model/User.php:302
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:368
+msgid ""
+"Invalid token, please check the email you were sent, and retry the "
+"verification link."
+msgstr "رمز تأكيد الحساب غير صحيح، من فضلك حاول مرة أخرى"
+
+#: Plugin/Users/Model/User.php:307
+msgid "The token has expired."
+msgstr "لقد انتهت صلاحية رمز التوكيد المستخدم."
+
+#: Plugin/Users/Model/User.php:406
+msgid "This Email Address exists but was never validated."
+msgstr "البريد الإلكتروني مسجل في الموقع ولكن لم يتم تفعيله بعد."
+
+#: Plugin/Users/Model/User.php:408
+msgid "This Email Address does not exist in the system."
+msgstr "البريد الإلكتروني المستدم غير مسجل بالموقع."
+
+#: Plugin/Users/Model/User.php:492
+msgid "$this->data['"
+msgstr ""
+
+#: Plugin/Users/Model/User.php:536
+msgid "The user does not exist."
+msgstr "المستخدم غير مسجل"
+
+#: Plugin/Users/Model/User.php:593
+msgid "Please enter your email address."
+msgstr "من فضلك إدخل بريدك الإلكتروني."
+
+#: Plugin/Users/Model/User.php:603
+msgid "The email address does not exist in the system"
+msgstr "البريد الإلكتروني المستخدم غير مسجل في الموقع."
+
+#: Plugin/Users/Model/User.php:608
+msgid "Your account is already authenticaed."
+msgstr "هذا الحساب مستخدم في الدخول على الموقع بالفعل"
+
+#: Plugin/Users/Model/User.php:613
+msgid "Your account is disabled."
+msgstr "حسابك مغلق"
+
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:54
+msgid "Sorry, but you need to login to access this location."
+msgstr "يجب ان تدخل على الموقع لكي تتمكن من فتح الصفحة"
+
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:265
+msgid "adminuser you have successfully logged in"
+msgstr "adminuser  لقد دخلت إلى الموقع بنجاح."
+
+#: Plugin/Users/Test/Case/Controller/UsersControllerTest.php:387
+msgid "testuser you have successfully logged out"
+msgstr "testuser لقد خرجت من الموقع بنجاح"
+
+#: Plugin/Users/View/Elements/login.ctp:13
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:4
+#: Plugin/Users/View/Users/login.ctp:25
+msgid "Login"
+msgstr "دخــول"
+
+#: Plugin/Users/View/Elements/login.ctp:20
+#: Plugin/Users/View/Users/admin_edit.ctp:21
+#: Plugin/Users/View/Users/admin_index.ctp:19
+#: Plugin/Users/View/Users/login.ctp:32 Plugin/Users/View/Users/search.ctp:20
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: Plugin/Users/View/Elements/login.ctp:22
+#: Plugin/Users/View/Elements/register.ctp:24
+#: Plugin/Users/View/Users/add.ctp:24 Plugin/Users/View/Users/admin_add.ctp:24
+#: Plugin/Users/View/Users/login.ctp:34;62
+msgid "Password"
+msgstr "كلمة السر"
+
+#: Plugin/Users/View/Elements/login.ctp:24
+#: Plugin/Users/View/Users/login.ctp:36
+msgid "Remember Me"
+msgstr "تذكرني"
+
+#: Plugin/Users/View/Elements/login.ctp:25
+#: Plugin/Users/View/Users/login.ctp:37
+msgid "I forgot my password"
+msgstr "نسيت كلمة السر"
+
+#: Plugin/Users/View/Elements/login.ctp:29
+#: Plugin/Users/View/Elements/register.ctp:32
+#: Plugin/Users/View/UserDetails/add.ctp:23
+#: Plugin/Users/View/UserDetails/admin_add.ctp:23
+#: Plugin/Users/View/UserDetails/index.ctp:27
+#: Plugin/Users/View/Users/add.ctp:33
+#: Plugin/Users/View/Users/change_password.ctp:26
+#: Plugin/Users/View/Users/edit.ctp:25 Plugin/Users/View/Users/login.ctp:41;71
+#: Plugin/Users/View/Users/request_password_change.ctp:22
+#: Plugin/Users/View/Users/reset_password.ctp:14
+msgid "Submit"
+msgstr "دخول"
+
+#: Plugin/Users/View/Elements/register.ctp:13
+#: Plugin/Users/View/Users/add.ctp:13 Plugin/Users/View/Users/admin_add.ctp:15
+#: Plugin/Users/View/Users/login.ctp:49
+msgid "Add User"
+msgstr "مستخدم جديد"
+
+#: Plugin/Users/View/Elements/register.ctp:18
+#: Plugin/Users/View/Users/add.ctp:18 Plugin/Users/View/Users/admin_add.ctp:18
+#: Plugin/Users/View/Users/admin_edit.ctp:19
+#: Plugin/Users/View/Users/admin_index.ctp:18
+#: Plugin/Users/View/Users/admin_view.ctp:15
+#: Plugin/Users/View/Users/login.ctp:56 Plugin/Users/View/Users/search.ctp:18
+#: Plugin/Users/View/Users/view.ctp:15
+msgid "Username"
+msgstr "إسم المستخدم"
+
+#: Plugin/Users/View/Elements/register.ctp:20
+#: Plugin/Users/View/Users/add.ctp:20 Plugin/Users/View/Users/admin_add.ctp:20
+#: Plugin/Users/View/Users/login.ctp:58
+msgid "E-mail (used as login)"
+msgstr "البريد الإلكتروني (سيستخدم في الدخول)"
+
+#: Plugin/Users/View/Elements/register.ctp:21
+#: Plugin/Users/View/Users/add.ctp:21 Plugin/Users/View/Users/admin_add.ctp:21
+#: Plugin/Users/View/Users/login.ctp:59
+msgid "Must be a valid email address"
+msgstr "البريد الإلكتروني غير صحيح"
+
+#: Plugin/Users/View/Elements/register.ctp:22
+#: Plugin/Users/View/Users/add.ctp:22 Plugin/Users/View/Users/admin_add.ctp:22
+#: Plugin/Users/View/Users/login.ctp:60
+msgid "An account with that email already exists"
+msgstr "البريد الإلكتروني المستخدم مسجل معنا"
+
+#: Plugin/Users/View/Elements/register.ctp:27
+#: Plugin/Users/View/Users/add.ctp:27 Plugin/Users/View/Users/admin_add.ctp:27
+#: Plugin/Users/View/Users/login.ctp:65
+msgid "Password (confirm)"
+msgstr "تأكيد كلمة السر "
+
+#: Plugin/Users/View/Elements/register.ctp:29
+#: Plugin/Users/View/Users/add.ctp:29 Plugin/Users/View/Users/login.ctp:67
+msgid "Terms of Service"
+msgstr "إتفاقية إستخدام الموقع"
+
+#: Plugin/Users/View/Elements/register.ctp:31
+#: Plugin/Users/View/Users/add.ctp:31 Plugin/Users/View/Users/login.ctp:69
+msgid "I have read and agreed to "
+msgstr "لقد قرأت ووافقت على "
+
+#: Plugin/Users/View/Elements/Users/admin_sidebar.ctp:3
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:9
+msgid "Logout"
+msgstr "خروج"
+
+#: Plugin/Users/View/Elements/Users/admin_sidebar.ctp:4
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:10
+msgid "My Account"
+msgstr "حسابي"
+
+#: Plugin/Users/View/Elements/Users/admin_sidebar.ctp:6
+msgid "Add Users"
+msgstr "مستخدم جديد"
+
+#: Plugin/Users/View/Elements/Users/admin_sidebar.ctp:7
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:15
+#: Plugin/Users/View/UserDetails/add.ctp:28
+#: Plugin/Users/View/UserDetails/admin_add.ctp:28
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:30
+#: Plugin/Users/View/UserDetails/admin_index.ctp:73
+#: Plugin/Users/View/UserDetails/admin_view.ctp:58
+#: Plugin/Users/View/UserDetails/view.ctp:59
+msgid "List Users"
+msgstr "قائمة المستخدمين"
+
+#: Plugin/Users/View/Elements/Users/admin_sidebar.ctp:9
+msgid "Frontend"
+msgstr "واجهة الموقع"
+
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:6
+msgid "Register an account"
+msgstr "حفظ"
+
+#: Plugin/Users/View/Elements/Users/sidebar.ctp:11
+msgid "Change password"
+msgstr "تغيير كلمة السر"
+
+#: Plugin/Users/View/Emails/text/account_verification.ctp:12
+msgid "Hello %s,"
+msgstr "مرحباً، %s"
+
+#: Plugin/Users/View/Emails/text/account_verification.ctp:14
+msgid "to validate your account, you must visit the URL below within 24 hours"
+msgstr "بتأكيد حسابك, من فضلك قم بالضغط على الرابط أدناه خلال 24 ساعة"
+
+#: Plugin/Users/View/Emails/text/new_password.ctp:12
+msgid "Your password has been reset"
+msgstr "لقد تم إعادة ضبط كلمة السرة الخاصة بك."
+
+#: Plugin/Users/View/Emails/text/new_password.ctp:13
+msgid "Please login using this password and change your password"
+msgstr ""
+"من فضلك إستخدم كلمة السر التالية للدخول على الموقع ثم قم بتغيير كلمة السر."
+
+#: Plugin/Users/View/Emails/text/new_password.ctp:15
+msgid "Your new password is: %s"
+msgstr "كلمة السر الجديدة هي : %s"
+
+#: Plugin/Users/View/Emails/text/password_reset_request.ctp:12
+msgid ""
+"A request to reset your password was sent. To change your password click the "
+"link below."
+msgstr ""
+"تم إرسال طلب إعادة ضبط كلمة السر, لتغيير كلمة السر  Yqy' hgvhf' hgjhgd<"
+
+#: Plugin/Users/View/UserDetails/add.ctp:15
+#: Plugin/Users/View/UserDetails/admin_add.ctp:15
+msgid "Add User Detail"
+msgstr "أضف بيانات المستخدم"
+
+#: Plugin/Users/View/UserDetails/add.ctp:27
+#: Plugin/Users/View/UserDetails/admin_add.ctp:27
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:29
+#: Plugin/Users/View/UserDetails/admin_view.ctp:56
+#: Plugin/Users/View/UserDetails/view.ctp:57
+msgid "List Details"
+msgstr "قائمة البيانات"
+
+#: Plugin/Users/View/UserDetails/add.ctp:29
+#: Plugin/Users/View/UserDetails/admin_add.ctp:29
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:31
+#: Plugin/Users/View/UserDetails/admin_index.ctp:74
+#: Plugin/Users/View/UserDetails/admin_view.ctp:59
+#: Plugin/Users/View/UserDetails/view.ctp:60
+msgid "New User"
+msgstr "مستخدم  جديد"
+
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:15
+#: Plugin/Users/View/UserDetails/edit.ctp:15
+msgid "Edit User Detail"
+msgstr "تعديل بيانات المستخدم"
+
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:28
+#: Plugin/Users/View/UserDetails/admin_index.ctp:63
+#: Plugin/Users/View/Users/admin_index.ctp:60
+#: Plugin/Users/View/Users/search.ctp:52
+msgid "Delete"
+msgstr "حذف"
+
+#: Plugin/Users/View/UserDetails/admin_edit.ctp:28
+#: Plugin/Users/View/UserDetails/admin_index.ctp:63
+#: Plugin/Users/View/UserDetails/admin_view.ctp:55
+#: Plugin/Users/View/UserDetails/view.ctp:56
+#: Plugin/Users/View/Users/admin_index.ctp:60
+#: Plugin/Users/View/Users/search.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr "هل أنت متأكد من أنك تريد حذف %s؟"
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:13
+msgid "User Details"
+msgstr "بيانات المستخدم"
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:16
+#: Plugin/Users/View/Users/index.ctp:17 Plugin/Users/View/Users/search.ctp:27
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:28
+#: Plugin/Users/View/Users/admin_index.ctp:31
+#: Plugin/Users/View/Users/index.ctp:25 Plugin/Users/View/Users/search.ctp:35
+msgid "Actions"
+msgstr ""
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:61
+#: Plugin/Users/View/Users/admin_index.ctp:58
+#: Plugin/Users/View/Users/index.ctp:39 Plugin/Users/View/Users/search.ctp:49
+msgid "View"
+msgstr "عرض"
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:62
+#: Plugin/Users/View/Users/admin_index.ctp:59
+#: Plugin/Users/View/Users/search.ctp:50
+msgid "Edit"
+msgstr "تعديل"
+
+#: Plugin/Users/View/UserDetails/admin_index.ctp:72
+msgid "New User Detail"
+msgstr "تفاصيل مستخدم جديدة"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:13
+#: Plugin/Users/View/UserDetails/view.ctp:13
+msgid "User Detail"
+msgstr "تفاصيل المستخدم"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:15
+#: Plugin/Users/View/UserDetails/view.ctp:15
+msgid "Id"
+msgstr "رقم التعريف"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:20
+#: Plugin/Users/View/UserDetails/view.ctp:20
+#: Plugin/Users/View/Users/admin_view.ctp:13
+#: Plugin/Users/View/Users/view.ctp:13
+msgid "User"
+msgstr "المستخدم"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:25
+#: Plugin/Users/View/UserDetails/view.ctp:25
+msgid "Position"
+msgstr "الترتيب"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:30
+#: Plugin/Users/View/UserDetails/view.ctp:30
+msgid "Field"
+msgstr "الحقل"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:35
+#: Plugin/Users/View/UserDetails/view.ctp:35
+msgid "Value"
+msgstr "القيمة"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:40
+#: Plugin/Users/View/UserDetails/view.ctp:40
+#: Plugin/Users/View/Users/admin_view.ctp:20
+#: Plugin/Users/View/Users/view.ctp:20
+msgid "Created"
+msgstr "أضيف"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:45
+#: Plugin/Users/View/UserDetails/view.ctp:45
+#: Plugin/Users/View/Users/admin_view.ctp:25
+msgid "Modified"
+msgstr "تم تعديله"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:54
+#: Plugin/Users/View/UserDetails/view.ctp:55
+msgid "Edit Detail"
+msgstr "تعديل البيانات"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:55
+#: Plugin/Users/View/UserDetails/view.ctp:56
+msgid "Delete Detail"
+msgstr "حذف البيانات"
+
+#: Plugin/Users/View/UserDetails/admin_view.ctp:57
+#: Plugin/Users/View/UserDetails/view.ctp:58
+msgid "New Detail"
+msgstr "بيانات جديدة"
+
+#: Plugin/Users/View/Users/admin_add.ctp:31
+#: Plugin/Users/View/Users/admin_edit.ctp:24
+msgid "Role"
+msgstr "الدور"
+
+#: Plugin/Users/View/Users/admin_add.ctp:35
+#: Plugin/Users/View/Users/admin_edit.ctp:27
+msgid "Is Admin"
+msgstr "مدير؟"
+
+#: Plugin/Users/View/Users/admin_add.ctp:37
+#: Plugin/Users/View/Users/admin_edit.ctp:29
+msgid "Active"
+msgstr "مفعّل"
+
+#: Plugin/Users/View/Users/admin_edit.ctp:15
+#: Plugin/Users/View/Users/edit.ctp:15
+msgid "Edit User"
+msgstr "تعديل بيانات المستخدم"
+
+#: Plugin/Users/View/Users/admin_index.ctp:13
+#: Plugin/Users/View/Users/index.ctp:13 Plugin/Users/View/Users/search.ctp:13
+msgid "Users"
+msgstr "المستخدمين"
+
+#: Plugin/Users/View/Users/admin_index.ctp:15
+msgid "Filter"
+msgstr "فرز"
+
+#: Plugin/Users/View/Users/admin_index.ctp:20
+#: Plugin/Users/View/Users/search.ctp:23
+msgid "Search"
+msgstr "بحث"
+
+#: Plugin/Users/View/Users/admin_index.ctp:49;52
+msgid "Yes"
+msgstr "نعم"
+
+#: Plugin/Users/View/Users/admin_index.ctp:49;52
+msgid "No"
+msgstr "لا"
+
+#: Plugin/Users/View/Users/change_password.ctp:13
+#: Plugin/Users/View/Users/edit.ctp:22
+msgid "Change your password"
+msgstr "تغيير كلمة السر"
+
+#: Plugin/Users/View/Users/change_password.ctp:14
+msgid ""
+"Please enter your old password because of security reasons and then your new "
+"password twice."
+msgstr ""
+
+#: Plugin/Users/View/Users/change_password.ctp:18
+msgid "Old Password"
+msgstr "كلمة السر القديمة"
+
+#: Plugin/Users/View/Users/change_password.ctp:21
+#: Plugin/Users/View/Users/reset_password.ctp:9
+msgid "New Password"
+msgstr "كلمة السر الجديدة"
+
+#: Plugin/Users/View/Users/change_password.ctp:24
+#: Plugin/Users/View/Users/reset_password.ctp:12
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: Plugin/Users/View/Users/dashboard.ctp:13
+msgid "Welcome"
+msgstr "مرحباً"
+
+#: Plugin/Users/View/Users/dashboard.ctp:14
+msgid "Recent broadcasts"
+msgstr ""
+
+#: Plugin/Users/View/Users/request_password_change.ctp:13
+msgid "Forgot your password?"
+msgstr "نسيت كلمة السر؟"
+
+#: Plugin/Users/View/Users/request_password_change.ctp:14
+msgid ""
+"Please enter the email you used for registration and you'll get an email "
+"with further instructions."
+msgstr ""
+"من فضلك قم بإدخال بريدك الإلكتروني المستخدم بالتسجيل وسوف نقوم بإرسال "
+"التعليمات اإليك"
+
+#: Plugin/Users/View/Users/request_password_change.ctp:21
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#: Plugin/Users/View/Users/reset_password.ctp:2
+msgid "Reset your password"
+msgstr "أعادة ضبط كلمة السر"
+
+#: Plugin/Users/View/Users/search.ctp:22
+msgid "Name"
+msgstr "الإسم"
+
+msgid "Save"
+msgstr "حفظ"
+
