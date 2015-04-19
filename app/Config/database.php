@@ -61,7 +61,7 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
-		'port':  getenv('OPENSHIFT_MYSQL_DB_PORT'),
+		'port' =>  getenv('OPENSHIFT_MYSQL_DB_PORT'),
 		'login' => 'adminREeE4me',
 		'password' => 'XXq4qz2LPvUC',
 		'database' => 'akazeep',
