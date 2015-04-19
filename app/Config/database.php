@@ -53,13 +53,15 @@
  * unix_socket =>
  * For MySQL to connect via socket specify the `unix_socket` parameter instead of `host` and `port`
  */
+ 
+ echo getenv('OPENSHIFT_MYSQL_DB_HOST');
 class DATABASE_CONFIG {
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => getenv("OPENSHIFT_DB_HOST"),
-		'port':  getenv("OPENSHIFT_DB_PORT"),
+		'host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
+		'port':  getenv('OPENSHIFT_MYSQL_DB_PORT'),
 		'login' => 'adminREeE4me',
 		'password' => 'XXq4qz2LPvUC',
 		'database' => 'akazeep',
