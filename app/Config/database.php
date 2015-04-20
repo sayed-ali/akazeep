@@ -54,31 +54,37 @@
  * For MySQL to connect via socket specify the `unix_socket` parameter instead of `host` and `port`
  */
  
- echo getenv('OPENSHIFT_MYSQL_DB_HOST');
- echo 'hello';
 class DATABASE_CONFIG {
-
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
-		'port' =>  getenv('OPENSHIFT_MYSQL_DB_PORT'),
-		'login' => 'adminREeE4me',
-		'password' => 'XXq4qz2LPvUC',
-		'database' => 'akazeep',
-		'prefix' => 'aka_',
-		'encoding' => 'utf8'
-	);
-
-
-	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => '127.0.0.1:3306',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'cake_akazeep',
-		'prefix' => 'aka_',
-		'encoding' => 'utf8'
-	);
+        public $default = array(
+                'datasource' => 'Database/Mysql',
+                'persistent' => false,
+                'host'       => '',
+                'port'       => '',
+                'login'      => '',
+                'password'   => '',
+                'database'   => '',
+                'prefix'     => '',
+                //'encoding' => 'utf8',
+        );
+        public $test = array(
+                'datasource' => 'Database/Mysql',
+                'persistent' => false,
+                'host'       => '',
+		'port'       => '',
+                'login'      => '',
+                'password'   => '',
+                'database'   => 'test_database',
+                'prefix'     => '',
+                //'encoding' => 'utf8',
+        );
+	public function __construct() {
+	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
+	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
+	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
+	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
+	           $this->default['datasource'] = 'Database/Mysql';
+	           $this->test['datasource']    = 'Database/Mysql';
+	    
+	}
 }
