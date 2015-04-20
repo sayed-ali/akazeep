@@ -55,6 +55,7 @@
  */
  
  echo getenv('OPENSHIFT_MYSQL_DB_HOST');
+ echo 'hello';
 class DATABASE_CONFIG {
 
 	public $default = array(
