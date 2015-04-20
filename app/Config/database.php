@@ -64,7 +64,7 @@ class DATABASE_CONFIG {
                 'password'   => '',
                 'database'   => '',
                 'prefix'     => '',
-                //'encoding' => 'utf8',
+                'encoding' => 'utf8',
         );
         public $test = array(
                 'datasource' => 'Database/Mysql',
@@ -75,7 +75,7 @@ class DATABASE_CONFIG {
                 'password'   => '',
                 'database'   => 'test_database',
                 'prefix'     => '',
-                //'encoding' => 'utf8',
+                'encoding' => 'utf8',
         );
 	public function __construct() {
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
